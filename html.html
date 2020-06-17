@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Selectable - Display as grid</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+   <script src="jquery-ui-1.12.1.custom/jquery-1.12.4.js"></script>
+  <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+  <style>
+  #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+  #selectable li { margin: 3px; padding: 1px; float: left; width: 100px; height: 80px; font-size: 4em; text-align: center; }
+  </style>
+  <script>
+  $( function() {
+    $( "#selectable" ).selectable();
+  } );
+  </script>
+</head>
+<BR>
+<BR>
+<BR>
+<body>
+ <center>
+<ol id="selectable">
+  <li class="ui-state-default" > <img src="imagem/ico_mesa.png"  width="40px" height="40px" />1</li>
+  <li class="ui-state-default"><img src="imagem/ico_mesa.png"   width="40px" height="40px"/>2</li>
+  <li class="ui-state-default"><img src="imagem/ico_mesa.png"   width="40px" height="40px"/>3</li>
+  <li class="ui-state-default"><img src="imagem/ico_mesa.png"   width="40px" height="40px"/>4</li>
+  <li class="ui-state-default"><img src="imagem/ico_mesa.png"   width="40px" height="40px"/>5</li>
+  <li class="ui-state-default"><img src="imagem/ico_mesa.png"   width="40px" height="40px"/>6</li>
+  <li class="ui-state-default"><img src="imagem/ico_mesa.png"   width="40px" height="40px"/>7</li>
+  <li class="ui-state-default"><img src="imagem/ico_mesa.png"   width="40px" height="40px"/>8</li>
+  <li class="ui-state-default"><img src="imagem/ico_mesa.png"   width="40px" height="40px"/>9</li>
+
+</ol>
+ 
+  </center>
+
+</body>
+</html>
